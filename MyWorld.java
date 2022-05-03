@@ -14,6 +14,9 @@ public class MyWorld extends World
         super(600, 400, 1);
         
         Pig p = new Pig();
-        addObject(p, 300, 200);
+        addObject(p, 300, 350);
+        
+        Apple a = new Apple();
+        addObject(a, 300, 0);
     }
 }

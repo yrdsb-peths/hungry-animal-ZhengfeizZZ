@@ -5,7 +5,6 @@ public class Pig extends Actor
     public void act()
     {
         // Add your action code here.
-        move(2);
         if(Greenfoot.isKeyDown("a")){
             move(-2);
         }
@@ -14,6 +13,10 @@ public class Pig extends Actor
         }
         if(Greenfoot.isKeyDown("space")){
             turn(2);
+        }
+        // Eat the apple
+        if(isTouching(Apple.class)){
+            removeTouching(Apple.class);
         }
     }
 }
