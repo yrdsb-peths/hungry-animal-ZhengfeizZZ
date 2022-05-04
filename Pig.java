@@ -17,6 +17,8 @@ public class Pig extends Actor
         // Eat the apple
         if(isTouching(Apple.class)){
             removeTouching(Apple.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.spawnApple();
         }
     }
 }

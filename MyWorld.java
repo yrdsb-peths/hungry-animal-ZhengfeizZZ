@@ -15,8 +15,15 @@ public class MyWorld extends World
         
         Pig p = new Pig();
         addObject(p, 300, 350);
-        
+ 
+        spawnApple();
+    }
+    
+    public void spawnApple()
+    {
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
         Apple a = new Apple();
-        addObject(a, 300, 0);
+        addObject(a, x, y);
     }
 }
