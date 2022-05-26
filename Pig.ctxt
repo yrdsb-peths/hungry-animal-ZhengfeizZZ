@@ -1,5 +1,14 @@
 #BlueJ class context
 comment0.target=Pig
+comment0.text=\r\n\ The\ Pig,\ our\ hero.\r\n\ \r\n\ @author\ Zhengfei\r\n\ version\ May\ 25\ 2022\r\n
 comment1.params=
-comment1.target=void\ act()
-numComments=2
+comment1.target=Pig()
+comment1.text=\r\n\ Constructor\:\ Runs\ everytime\ when\ an\ object\ is\ created.\r\n
+comment2.params=
+comment2.target=void\ animationPig()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ eat()
+comment4.text=\r\n\ Eat\ the\ apple\ and\ spawn\ a\ new\ apple\ when\ an\ apple\ is\ being\ eaten.\r\n
+numComments=5
